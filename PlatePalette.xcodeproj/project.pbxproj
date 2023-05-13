@@ -16,6 +16,13 @@
 		2078BD9C2A0E7DDE004D879B /* PlatePaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078BD9B2A0E7DDE004D879B /* PlatePaletteTests.swift */; };
 		2078BDA62A0E7DDE004D879B /* PlatePaletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078BDA52A0E7DDE004D879B /* PlatePaletteUITests.swift */; };
 		2078BDA82A0E7DDE004D879B /* PlatePaletteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2078BDA72A0E7DDE004D879B /* PlatePaletteUITestsLaunchTests.swift */; };
+		20EDB6EE2A0F93400090A3DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6ED2A0F93400090A3DC /* HomeView.swift */; };
+		20EDB6F02A0F93510090A3DC /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6EF2A0F93510090A3DC /* CategoriesView.swift */; };
+		20EDB6F22A0F93660090A3DC /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F12A0F93660090A3DC /* NewRecipeView.swift */; };
+		20EDB6F42A0F93740090A3DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F32A0F93740090A3DC /* SettingsView.swift */; };
+		20EDB6F62A0F938B0090A3DC /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F52A0F938B0090A3DC /* FavoritesView.swift */; };
+		20EDB6F82A0F9C2A0090A3DC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F72A0F9C2A0090A3DC /* TabBar.swift */; };
+		20EDB6FA2A0FB62A0090A3DC /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F92A0FB62A0090A3DC /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		2078BDA12A0E7DDE004D879B /* PlatePaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatePaletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2078BDA52A0E7DDE004D879B /* PlatePaletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatePaletteUITests.swift; sourceTree = "<group>"; };
 		2078BDA72A0E7DDE004D879B /* PlatePaletteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatePaletteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20EDB6ED2A0F93400090A3DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20EDB6EF2A0F93510090A3DC /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		20EDB6F12A0F93660090A3DC /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		20EDB6F32A0F93740090A3DC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		20EDB6F52A0F938B0090A3DC /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		20EDB6F72A0F9C2A0090A3DC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		20EDB6F92A0FB62A0090A3DC /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +112,10 @@
 		2078BD842A0E7DDD004D879B /* PlatePalette */ = {
 			isa = PBXGroup;
 			children = (
+				20EDB6E92A0F90870090A3DC /* Views */,
+				20EDB6E82A0F905E0090A3DC /* Models */,
+				20EDB6E72A0F90320090A3DC /* ViewModels */,
 				2078BD852A0E7DDD004D879B /* PlatePaletteApp.swift */,
-				2078BD872A0E7DDD004D879B /* ContentView.swift */,
 				2078BD892A0E7DDE004D879B /* Assets.xcassets */,
 				2078BD8E2A0E7DDE004D879B /* Persistence.swift */,
 				2078BD902A0E7DDE004D879B /* PlatePalette.xcdatamodeld */,
@@ -131,6 +147,59 @@
 				2078BDA72A0E7DDE004D879B /* PlatePaletteUITestsLaunchTests.swift */,
 			);
 			path = PlatePaletteUITests;
+			sourceTree = "<group>";
+		};
+		20EDB6E72A0F90320090A3DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20EDB6E82A0F905E0090A3DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20EDB6F92A0FB62A0090A3DC /* RecipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20EDB6E92A0F90870090A3DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20EDB6EC2A0F90C00090A3DC /* Components */,
+				20EDB6EB2A0F90B50090A3DC /* Details */,
+				20EDB6EA2A0F90A20090A3DC /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20EDB6EA2A0F90A20090A3DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2078BD872A0E7DDD004D879B /* ContentView.swift */,
+				20EDB6ED2A0F93400090A3DC /* HomeView.swift */,
+				20EDB6EF2A0F93510090A3DC /* CategoriesView.swift */,
+				20EDB6F12A0F93660090A3DC /* NewRecipeView.swift */,
+				20EDB6F32A0F93740090A3DC /* SettingsView.swift */,
+				20EDB6F52A0F938B0090A3DC /* FavoritesView.swift */,
+				20EDB6F72A0F9C2A0090A3DC /* TabBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20EDB6EB2A0F90B50090A3DC /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		20EDB6EC2A0F90C00090A3DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +333,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2078BD8F2A0E7DDE004D879B /* Persistence.swift in Sources */,
+				20EDB6FA2A0FB62A0090A3DC /* RecipeModel.swift in Sources */,
+				20EDB6F42A0F93740090A3DC /* SettingsView.swift in Sources */,
 				2078BD882A0E7DDD004D879B /* ContentView.swift in Sources */,
+				20EDB6F02A0F93510090A3DC /* CategoriesView.swift in Sources */,
 				2078BD922A0E7DDE004D879B /* PlatePalette.xcdatamodeld in Sources */,
+				20EDB6F22A0F93660090A3DC /* NewRecipeView.swift in Sources */,
+				20EDB6EE2A0F93400090A3DC /* HomeView.swift in Sources */,
 				2078BD862A0E7DDD004D879B /* PlatePaletteApp.swift in Sources */,
+				20EDB6F62A0F938B0090A3DC /* FavoritesView.swift in Sources */,
+				20EDB6F82A0F9C2A0090A3DC /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
