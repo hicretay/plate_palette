@@ -23,6 +23,8 @@
 		20EDB6F62A0F938B0090A3DC /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F52A0F938B0090A3DC /* FavoritesView.swift */; };
 		20EDB6F82A0F9C2A0090A3DC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F72A0F9C2A0090A3DC /* TabBar.swift */; };
 		20EDB6FA2A0FB62A0090A3DC /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6F92A0FB62A0090A3DC /* RecipeModel.swift */; };
+		20EDB6FC2A0FDC140090A3DC /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6FB2A0FDC140090A3DC /* RecipeCard.swift */; };
+		20EDB6FE2A1010180090A3DC /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB6FD2A1010180090A3DC /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		20EDB6F52A0F938B0090A3DC /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		20EDB6F72A0F9C2A0090A3DC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		20EDB6F92A0FB62A0090A3DC /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		20EDB6FB2A0FDC140090A3DC /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		20EDB6FD2A1010180090A3DC /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,8 @@
 		20EDB6EC2A0F90C00090A3DC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				20EDB6FB2A0FDC140090A3DC /* RecipeCard.swift */,
+				20EDB6FD2A1010180090A3DC /* RecipeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -337,6 +343,8 @@
 				20EDB6F42A0F93740090A3DC /* SettingsView.swift in Sources */,
 				2078BD882A0E7DDD004D879B /* ContentView.swift in Sources */,
 				20EDB6F02A0F93510090A3DC /* CategoriesView.swift in Sources */,
+				20EDB6FC2A0FDC140090A3DC /* RecipeCard.swift in Sources */,
+				20EDB6FE2A1010180090A3DC /* RecipeView.swift in Sources */,
 				2078BD922A0E7DDE004D879B /* PlatePalette.xcdatamodeld in Sources */,
 				20EDB6F22A0F93660090A3DC /* NewRecipeView.swift in Sources */,
 				20EDB6EE2A0F93400090A3DC /* HomeView.swift in Sources */,
