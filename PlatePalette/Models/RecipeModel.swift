@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum Category: String{
+enum Category: String, CaseIterable, Identifiable{
+    var id: String{self.rawValue}
     case breakfast = "Breakfast"
     case soup = "Soup"
     case salad = "Salad"
@@ -49,7 +50,7 @@ extension Recipe {
             description: "Got a hankering for chocolate? This crowd-pleasing cake from Dreena Burton offers a healthier way to satisfy your cocoa cravings. Sweet potato helps add wholesome sweetness to both the base and frosting. If you’re short on time or want to keep this dessert lighter, you can skip the frosting; it will still be delicious. If you have fresh berries on hand, sprinkle some over this decadent-tasting cake just before serving. You will not be disappointed. One happy baker writes, “This recipe is delicious! Very moist. Almost like a brownie. I have already made it twice!”",
             ingredients: "¾ cup peeled, cooked, and cooled orange sweet potato\n¼ cup pure maple syrup\n1 tablespoon balsamic vinegar\n2 teaspoons pure vanilla extract\n1 cup whole grain spelt flour\n⅓ cup coconut sugar\n¼ cup miniature or regular nondairy chocolate chips\n½ teaspoon sea salt\n¼ cup unsweetened cocoa powder\n1 teaspoon regular or sodium-free baking powder\n1 scant teaspoon baking soda",
             directions: "Preheat oven to 350°F. Line a 9-inch round or 8-inch square silicone or other nonstick cake pan with parchment paper.",
-            category: "Dessert",
+            category: "Salad",
             datePublished: "2023-14-03",
             url: "https://www.forksoverknives.com/recipes/vegan-desserts/chocolate-sweet-potato-cake/"
         ),
@@ -60,7 +61,7 @@ extension Recipe {
             description: "Got a hankering for chocolate? This crowd-pleasing cake from Dreena Burton offers a healthier way to satisfy your cocoa cravings. Sweet potato helps add wholesome sweetness to both the base and frosting.",
             ingredients: "¾ cup peeled, cooked, and cooled orange sweet potato\n¼ cup pure maple syrup\n1 tablespoon balsamic vinegar\n2 teaspoons pure vanilla extract\n1 cup whole grain spelt flour\n⅓ cup coconut sugar\n¼ cup miniature or regular nondairy chocolate chips\n½ teaspoon sea salt\n¼ cup unsweetened cocoa powder\n1 teaspoon regular or sodium-free baking powder\n1 scant teaspoon baking soda",
             directions: "Preheat oven to 350°F. Line a 9-inch round or 8-inch square silicone or other nonstick cake pan with parchment paper.",
-            category: "Dessert",
+            category: "Salad",
             datePublished: "2023-14-03",
             url: "https://www.forksoverknives.com/recipes/vegan-desserts/chocolate-sweet-potato-cake/"
         ),
@@ -71,7 +72,7 @@ extension Recipe {
             description: "Got a hankering for chocolate? This crowd-pleasing cake from Dreena Burton offers a healthier way to satisfy your cocoa cravings. Sweet potato helps add wholesome sweetness to both the base and frosting.",
             ingredients: "¾ cup peeled, cooked, and cooled orange sweet potato\n¼ cup pure maple syrup\n1 tablespoon balsamic vinegar\n2 teaspoons pure vanilla extract\n1 cup whole grain spelt flour\n⅓ cup coconut sugar\n¼ cup miniature or regular nondairy chocolate chips\n½ teaspoon sea salt\n¼ cup unsweetened cocoa powder\n1 teaspoon regular or sodium-free baking powder\n1 scant teaspoon baking soda",
             directions: "Preheat oven to 350°F. Line a 9-inch round or 8-inch square silicone or other nonstick cake pan with parchment paper.",
-            category: "Dessert",
+            category: "Main",
             datePublished: "2023-14-03",
             url: "https://www.forksoverknives.com/recipes/vegan-desserts/chocolate-sweet-potato-cake/"
         ),
@@ -82,7 +83,7 @@ extension Recipe {
             description: "Got a hankering for chocolate? This crowd-pleasing cake from Dreena Burton offers a healthier way to satisfy your cocoa cravings. Sweet potato helps add wholesome sweetness to both the base and frosting.",
             ingredients: "¾ cup peeled, cooked, and cooled orange sweet potato\n¼ cup pure maple syrup\n1 tablespoon balsamic vinegar\n2 teaspoons pure vanilla extract\n1 cup whole grain spelt flour\n⅓ cup coconut sugar\n¼ cup miniature or regular nondairy chocolate chips\n½ teaspoon sea salt\n¼ cup unsweetened cocoa powder\n1 teaspoon regular or sodium-free baking powder\n1 scant teaspoon baking soda",
             directions: "Preheat oven to 350°F. Line a 9-inch round or 8-inch square silicone or other nonstick cake pan with parchment paper.",
-            category: "Dessert",
+            category: "Main",
             datePublished: "2023-14-03",
             url: "https://www.forksoverknives.com/recipes/vegan-desserts/chocolate-sweet-potato-cake/"
         ),

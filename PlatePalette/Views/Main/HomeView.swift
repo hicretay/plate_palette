@@ -12,7 +12,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ScrollView {
-                RecipeView(recipes: Recipe.all)
+                RecipeList(recipes: Recipe.all)
             }
             .navigationTitle("My Recipes")
         }
